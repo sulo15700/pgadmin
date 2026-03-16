@@ -1,0 +1,13 @@
+touch .gitignore
+nano .gitignore
+	#start with blocking everything
+	*
+	# Allow as you go what you want to tracked or not
+	!*.html
+	!*.js
+	!*.md
+	!*.py
+	!*.png
+	!*.jpg
+  !*.yaml
+	#you build as  you go as needed in this way you will have better control
