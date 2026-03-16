@@ -18,9 +18,9 @@ spec:
           image: dpage/pgadmin4
           env:
             - name: PGADMIN_DEFAULT_EMAIL
-              value: suleyman@solakedu.com
+              value: emailuser@gmail.com
             - name: PGADMIN_DEFAULT_PASSWORD
-              value: C@pe1832
+              value: 123456
           volumeMounts:
             - mountPath: /var/lib/pgadmin
               name: pgadmin-storage
